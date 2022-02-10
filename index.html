@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Pohl Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <i class="fab fa-bootstrap"></i>
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Portfolio</title>
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container"><a class="navbar-brand" href="#">John</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-trget="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="toggle naviation">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, I'm John</h2>
+                <p class="hero_desc">I am a Full stack student from Pittsburgh, PA</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="/Users/johnpohl/Desktop/Bootcamp/homework/JP_Portfolio/images/IMG_5390.jpg" class= "imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum delectus minus sit adipisci. Delectus explicabo harum nam quam error, optio impedit soluta officiis? Saepe asperiores optio nulla magnam ratione blanditiis.
+                    </p>
+                    <div class=""row mt-3>
+                        <ul>
+                            <li>Name: John Pohl</li>
+                            <li>Age: 29</li>
+                            <li>Hometowm: Pittsburgh, PA</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Occuption: Restuaraunt Manager</li>
+                            <li>School: Full stack student</li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="row mt-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates molestiae et odio commodi corporis animi enim optio perferendis nisi laborum at qui natus ducimus harum, ea nemo illum aliquam quasi!
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
