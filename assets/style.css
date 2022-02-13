@@ -29,3 +29,22 @@
 .navbarScroll.navbarDark {
     background-color: black;
 }
+
+#about {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#portfolio {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
