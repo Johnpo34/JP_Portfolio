@@ -1,6 +1,6 @@
 .bgimage {
     height: 100vh;
-    background: url('images/stadium.jpeg');
+    background-image: url('https://ndworks.nd.edu/assets/441591/1000x562/mc_5.12.21_notre_dame_stadium.jpg');
     background-size: cover;
     position: relative;
 }
