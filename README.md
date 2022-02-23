@@ -1,7 +1,7 @@
 # JP_Portfolio
 
 # Description
-This is my second portfolio.  I did majority of all my coding in index.html, with some styling in the css sheet, and in the javascript sheet i set up a scroll bar.
+This is my second portfolio.  I did majority of all my coding in index.html, with some styling in the css sheet, and in the javascript sheet, I set up a scroll bar. This portfolio includes links to some previous projects, an about me section, and a contact section.
 # github url
 https://github.com/Johnpo34/JP_Portfolio
 # deployed url
