@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container"><a class="navbar-brand" href="#">John</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-trget="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -41,10 +41,10 @@
     <section class="bgimage" id="home">
         <div class="container-fluid">
             <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Hi, I'm John</h2>
-                <p class="hero_desc">I am a Full stack student from Pittsburgh, PA</p>
-            </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h2 class="hero_title">Hi, I'm John</h2>
+                    <p class="hero_desc">I am a Full stack student from Pittsburgh, PA</p>
+                </div>
             </div>
         </div>
     </section>
@@ -54,13 +54,15 @@
             <h1 class="text-center">About Me</h1>
             <div class="row mt-4">
                 <div class="col-lg-4">
-                    <img src="assets/images/IMG_5390.jpg" class= "imageAboutPage" alt="">
+                    <img src="assets/images/IMG_5390.jpg" class="imageAboutPage" alt="">
                 </div>
 
                 <div class="col-lg-8">
-                    <p>Hi, my name is John Pohl.  I am a full stack student through the University of Pennsylvania.  I am born and raised in Pittsburgh, PA.  Some of my hobbies include sports, outdoor activites, golfing, and going to the gym.
+                    <p>Hi, my name is John Pohl. I am a full stack student through the University of Pennsylvania. I am
+                        born and raised in Pittsburgh, PA. Some of my hobbies include sports, outdoor activites,
+                        golfing, and going to the gym.
                     </p>
-                    <div class=""row mt-3>
+                    <div class="" row mt-3>
                         <ul>
                             <li>Name: John Pohl</li>
                             <li>Age: 29</li>
@@ -73,22 +75,24 @@
                             <li>School: Full stack student</li>
                         </ul>
                     </div>
+                </div>
             </div>
-        </div>
     </section>
 
     <section id="portfolio">
         <div class="container mt-3">
-            <h1 class="text-center">Portfolio</h1>
+            <h1 class="text-center">My Portfolio</h1>
             <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card">
-                        <img class="card-img-top" src="assets/images/First_ever_project.png" alt="First ever project" style="width:100%">
+                        <!-- rc world foods image -->
+                        <img class="card-img-top" src="assets/images/First_ever_project.png" alt="First ever project"
+                            style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title">Code Refractor</h4>
-                            <p class="card-text">This was the first ever project that I made. I took a pre-existing code and cleaned it up making it more user friendly for search engines.</p>
+                            <h4 class="card-title">RC World Foods</h4>
+                            <p class="card-text">This is my second group prject where we built a store front.</p>
                             <div class="text-center">
-                                <a href="https://johnpo34.github.io/code-refractor/" class="btn btn-success">Link</a>
+                                <a href="https://github.com/JeromeMcC/rcWorldFoods" class="btn btn-success">Github Repo</a>
                             </div>
                         </div>
                     </div>
@@ -96,12 +100,15 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                        <img class="card-img-top" src="assets/images/First_portfolio.png" alt="First Portfolio" style="width:100%">
+                        <!-- e-commerce image -->
+                        <img class="card-img-top" src="assets/images/First_portfolio.png" alt="First Portfolio"
+                            style="width:100%">
                         <div class="card-body">
-                            <h4 class="card-title">First Portfolio</h4>
-                            <p class="card-text">This is the first portfolio I ever put together through jut html and css. It included an about me section, a work hsitory section, and a contact section all built through html and css.</p>
+                            <h4 class="card-title">E-Commerce DB</h4>
+                            <!-- new description -->
+                            <p class="card-text">A databse built </p>
                             <div class="text-center">
-                                <a href="https://johnpo34.github.io/CssPortfolio/" class="btn btn-success">Link</a>
+                                <a href="https://github.com/Johnpo34/ECommerce_DB" class="btn btn-success">Github Repo</a>
                             </div>
                         </div>
                     </div>
@@ -112,9 +119,13 @@
                         <img class="card-img-top" src="assets/images/Quiz_game.png" alt="Quiz Game" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Quiz Game</h4>
-                            <p class="card-text">This is a quiz game made through JS. This quiz game consist of five multiple choice questions that a user can go through and answer. The quiz itself is timed, and a score is tracked for the user. Each correct answer is rewarded with points. At the end of the game, the user is taken to a highscore page where it shows all the highscores from previous games.</p>
+                            <p class="card-text">This is a quiz game made through JS. This quiz game consist of five
+                                multiple choice questions that a user can go through and answer. The quiz itself is
+                                timed, and a score is tracked for the user. Each correct answer is rewarded with points.
+                                At the end of the game, the user is taken to a highscore page where it shows all the
+                                highscores from previous games.</p>
                             <div class="text-center">
-                                <a href="https://johnpo34.github.io/04_WebAPI/" class="btn btn-success">Link</a>
+                                <a href="https://github.com/Johnpo34/04_WebAPI" class="btn btn-success">Github Repo</a>
                             </div>
                         </div>
                     </div>
@@ -122,12 +133,16 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                        <img class="card-img-top" src="assets/images/Password_Generator.png" alt="Password Generator" style="width:100%">
+                        <img class="card-img-top" src="assets/images/Password_Generator.png" alt="Password Generator"
+                            style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Password Generator</h4>
-                            <p class="card-text">A simple Password Generator. For this application, this password generator was made through html, css, and JavaScript, where a user can generate a password through some options that a user can choose from including, uppercase, lowercase, special characters, and numbers.</p>
+                            <p class="card-text">A simple Password Generator. For this application, this password
+                                generator was made through html, css, and JavaScript, where a user can generate a
+                                password through some options that a user can choose from including, uppercase,
+                                lowercase, special characters, and numbers.</p>
                             <div class="text-center">
-                                <a href="https://johnpo34.github.io/JS_Password/" class="btn btn-success">Link</a>
+                                <a href="https://johnpo34.github.io/JS_Password/" class="btn btn-success">Github Repo</a>
                             </div>
                         </div>
                     </div>
@@ -138,9 +153,11 @@
                         <img class="card-img-top" src="assets/images/Readme.png" alt="READ me" style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">READme</h4>
-                            <p class="card-text">A professional READme generator made through node.  For this a user can run node and generate a professional READme by answering questions. Those answers are then generated to a prexisting READme with sections.</p>
+                            <p class="card-text">A professional READme generator made through node. For this a user can
+                                run node and generate a professional READme by answering questions. Those answers are
+                                then generated to a prexisting READme with sections.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                <a href="#" class="btn btn-success">Github Repo</a>
                             </div>
                         </div>
                     </div>
@@ -148,12 +165,16 @@
 
                 <div class="col-lg-4 mt-4">
                     <div class="card portfolioContent">
-                        <img class="card-img-top" src="assets/images/First_group_project.png" alt="Translator" style="width:100%">
+                        <img class="card-img-top" src="assets/images/First_group_project.png" alt="Translator"
+                            style="width:100%">
                         <div class="card-body">
                             <h4 class="card-title">Language Translator</h4>
-                            <p class="card-text">This was my first ever group project. For this project, we set up a language translator for a user to enter a word or sentence to be translated to another langauge.</p>
+                            <p class="card-text">This was my first ever group project. For this project, we set up a
+                                language translator for a user to enter a word or sentence to be translated to another
+                                langauge.</p>
                             <div class="text-center">
-                                <a href="https://johnpo34.github.io/Golden_GiantsProj_2/" class="btn btn-success">Link</a>
+                                <a href="https://github.com/Johnpo34/Golden_GiantsProj_2"
+                                    class="btn btn-success">Github Repo</a>
                             </div>
                         </div>
                     </div>
@@ -161,33 +182,27 @@
             </div>
         </div>
     </section>
-<!-- need to recieve contact info -->
+    <!-- need to recieve contact info -->
     <section id="contact">
-        <div class="container mt-3 contactContent">
-            <h1 class="text-center">Contact Me</h1>
-
-            <div class="row mt-f">
-                <div class="col-lg-6">
-                    <form>
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
-                        <input type="email" class="form-control mt-3" placeholder="Email">
-                        <input type="text" class="form-control mt-3" placeholder="Subject">
-                        <div class="mb-3 mt-3">
-                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Details"></textarea>
-                        </div>
-                    </form>
-                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
-
+        <div class="container mt-3">
+            <h1 class="text-center">Contact</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
                 </div>
-
             </div>
         </div>
     </section>
 
-    <script src="assets/JavaScript/script.js"></script>
+    <footer id="footer">
+        <span class='bi bi-github'></span>
+        <span class='bi bi-twitter'></span>
+        <span class='bi bi-linkedin'></span>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="assets/JavaScript/script.js"></script>
 </body>
 
 </html>
