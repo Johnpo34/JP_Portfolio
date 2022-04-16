@@ -1,11 +1,13 @@
 # JP_Portfolio
 
 # Description
-This is my second portfolio.  I did majority of all my coding in index.html, with some styling in the css sheet, and in the javascript sheet, I set up a scroll bar. This portfolio includes links to some previous projects, an about me section, and a contact section.
+This is my second portfolio.  I have set up sections where a person can view about me, my previous work, and a dropdown menu to visit to either contact me or visit another one of my pages.
 # github url
 https://github.com/Johnpo34/JP_Portfolio
 # deployed url
 https://johnpo34.github.io/JP_Portfolio/
+
+# Heroku app url
 
 # screenshot
 
